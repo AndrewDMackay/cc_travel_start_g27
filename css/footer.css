@@ -12,9 +12,7 @@
     padding: 20px;
   }
   
-  
-  
-  .footer .footer-widget {
+  .footer-widget {
     padding:20px;
     position: relative;
     top: -14px;
@@ -22,12 +20,12 @@
   
   }
   
-  .footer .footer-widget li {
+  .footer-widget li {
     width: 50%;
     float: left;
   }
   
-  .footer .footer-widget .footer_title {
+  .footer-title {
     font-size: 20px;
     font-weight: 400;
     color: #fff;
@@ -36,7 +34,7 @@
     font-family: "Rubik", sans-serif;
   }
   
-  .footer  .footer-widget p {
+  .footer-widget p {
     color: #AAB1B7;
     font-size: 14px;
     font-weight: 400;
@@ -44,15 +42,15 @@
     color: #AAB1B7;
   }
   
-  .footer  .footer-widget p a {
+  .footer-widget p a {
     color: #AAB1B7;
   }
   
-  .footer  .footer-widget p a:hover {
+  .footer-widget p a:hover {
     color: #FF4A52;
   }
   
-  .footer  .footer-widget p.footer-text {
+  p.footer-text {
     font-size: 16px;
     color: #B2B2B2;
     margin-bottom: 23px;
@@ -60,18 +58,18 @@
     line-height: 26px;
   }
   
-  .footer  .footer_widget p.footer-text a.domain {
+  p.footer-text a.domain {
     color: #B2B2B2;
     font-weight: 400;
   }
   
-  .footer  .footer-widget ul li {
+  .footer-widget ul li {
     color: #ACACAC;
     font-size: 14px;
     line-height: 36px;
   }
   
-  .footer  .footer-widget ul li a {
+  .footer-widget ul li a {
     color: #AAB1B7;
     font-weight: 400;
     font-family: "Rubik", sans-serif;
@@ -79,6 +77,6 @@
   
   }
   
-  .footer  .footer-widget ul li a:hover {
+  .footer-widget ul li a:hover {
     color: #FF4A52;
   }

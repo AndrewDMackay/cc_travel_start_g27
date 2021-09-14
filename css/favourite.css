@@ -1,49 +1,55 @@
-.favourite {
-  display: flex;
-  }
-
-.favourite > div {
-  position: relative;
-  }
-
-.favourite > h3 > {
-  position: absolute;
-  
-  }
-
-.favourite > p {
-  position: absolute;
-  font-size: 14px;
-  }
-
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
-    opacity: 0.5;
-    background-size: cover;
-    background-position: center;
-    flex: 33;
-    height: 250px;
-    width: 250px;
   }
   
-.favourite-bg-2 {
+  .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
-    opacity: 0.5;
-    background-size: cover;
-    background-position: center;
-    flex: 33;
-    height: 250px;
-    width: 250px;
   }
   
-.favourite-bg-3 {
+  .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
-    opacity: 0.5;
-    background-size: cover;
-    background-position: center;
-    flex: 33;
-    height: 250px;
-    width: 250px;
+  }
+  
+  .favourite {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .single-favourite {
+    height: auto;
+    width: 25%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px;
+    padding:5px;
+  }
+  
+   .favourite-text p {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 33px;
+    margin-bottom: 49px;
+  }
+  
+ .favourite-text h3 {
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: .5;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+ .favourite-text a {
+    background-color: #60B99A;
+    color: #fff;
+    margin-bottom: 0;
+    text-decoration: none;
   }
   
   
