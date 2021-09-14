@@ -1,13 +1,36 @@
+.favourite {
+  display: flex;
+  flex-direction: row; 
+}
+
+.favourite > div {
+  position: relative;
+}
+
+.favourite > h3 > {
+  position: absolute;
+  text-align: center;
+}
+
+.favourite > p {
+  position: absolute;
+  text-align: center;
+}
+
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
+    position: relative;
+    
   }
   
   .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
+    position: relative;
   }
   
   .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
+    position: relative;
   }
   
   
