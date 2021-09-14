@@ -1,36 +1,48 @@
 .favourite {
   display: flex;
-  flex-direction: row; 
-}
+  }
 
 .favourite > div {
   position: relative;
-}
+  text-align: center;
+  }
 
 .favourite > h3 > {
   position: absolute;
-  text-align: center;
-}
+  }
 
 .favourite > p {
   position: absolute;
-  text-align: center;
-}
+  }
 
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
-    position: relative;
-    
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    flex: 33;
+    height: 250px;
+    width: 250px;
   }
   
-  .favourite-bg-2 {
+.favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
-    position: relative;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    flex: 33;
+    height: 250px;
+    width: 250px;
   }
   
-  .favourite-bg-3 {
+.favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
-    position: relative;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    flex: 33;
+    height: 250px;
+    width: 250px;
   }
   
   
