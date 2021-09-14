@@ -8,10 +8,12 @@
 
 .favourite > h3 > {
   position: absolute;
+  
   }
 
 .favourite > p {
   position: absolute;
+  font-size: 14px;
   }
 
 .favourite-bg-1 {
